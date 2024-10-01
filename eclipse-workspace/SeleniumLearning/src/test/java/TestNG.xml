@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+<test name="Test cases">
+<parameter name="Name" value="Lion"></parameter>
+<classes>
+<class name="testNG.ParallelTesting"></class>
+</classes>
+</test>
+</suite>
+
+
+
+<!--<groups>
+	<run>
+	<include name="Apple"></include>
+	<include name="Vivo"></include>
+	</run>
+
+</groups>-->
+<!--<class name="testNG.GroupingExample"></class>-->
+
+
+<!--<class name="testNG.DependenciesManagement"></class>
+<class name="testNG.SampleTestCase"></class>
+<class name="testNG.SkipaTestCase"></class>
+<class name="testNG.SuiteExample"></class>-->
